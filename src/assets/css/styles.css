@@ -1,0 +1,12 @@
+.form_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_content > div{
+    margin-right: 0.5em;
+}
+.form_content > button,
+.form_content > div > input{
+    padding: 0.5em 1em;
+}

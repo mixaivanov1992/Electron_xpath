@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/assets/css/styles.css">
+    <link rel="stylesheet" href="src/assets/css/loader.css">
+    <script src="./src/components/render.js"></script>
+    <title>Electron</title>
+  </head>
+  <body>
+    <div class="loader_background">
+      <div class="loader"><div></div><div></div><div></div></div>
+    </div>
+    <main>
+        <form action="" class="form_content" onsubmit="event.preventDefault();">
+            <div class="website_address">
+                <input type="text" required placeholder="Введите адрес сайта">
+            </div>
+            <div class="xpath">
+                <input type="text" required placeholder="Введите xpath">
+            </div>
+            <button type="submit" class="submit">Получить контент</button>
+        </form>
+    </main>
+  </body>
+</html>
